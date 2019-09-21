@@ -1,5 +1,5 @@
 // Store our API endpoint inside queryUrl
-const API_KEY = "pk.eyJ1IjoiYm9zc2FyZGFhcm9uIiwiYSI6ImNqejkxYnNlNjBudzkzbnF4cTZyZ2NhcDUifQ.hHeQuE2Ls4XOKmxWqTbCfA";
+const API_KEY = "API HERE";
 
 var defaultURL = "http://127.0.0.1:5000/api_earthquake";
 
