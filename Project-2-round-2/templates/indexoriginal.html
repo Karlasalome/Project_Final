@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+      <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style2.css')}}">
+  
+    <div class="wrapper">
+        <!--<h1>Live earthquake feed</h1>-->
+    </div>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>Real time Earthquakes</title>
+    <link href="styles.css" rel="stylesheet">
+      
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="/about">welcome</a></li>
+                <li><a href="/">page2</li>
+                <li><a href="#contact">page3</a></li>
+                <li><a href="/indexoriginal">page4</a></li>
+            </ul>    
+        </nav>
+    </div>
+                <div id="map"></div>
+                <script src="map.js"></script>
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRZguh_5k2jbF1lQAF05U9OABP6Q-hsLM&callback=initMap">
+                </script>
+  </body>
+
+</html>
